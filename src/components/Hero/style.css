@@ -1,0 +1,15 @@
+.heading {
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header {
+  font-size: 6rem;
+}
+
+.sub-header {
+  font-size: 3rem;
+}
