@@ -1,12 +1,15 @@
-import express from 'express'
 import path from 'path'
+import express from 'express'
 import cors from 'cors'
-import corsOptions from '../config/corsOptions'
-import { logger } from '../middleware/logEvents'
-import errorHandler from '../middleware/errorHandler'
-import verifyJWT from './middleware/verifyJWT'
 import cookieParser from 'cookie-parser'
-import credentials from '../middleware/credentials'
+import corsOptions from './config/corsOptions'
+
+import {
+    logger,
+    errorHandler,
+    verifyJWT,
+    credentials
+} from './middleware'
 
 const app = express()
 const PORT = process.env.PORT || 3500
