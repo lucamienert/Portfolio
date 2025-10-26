@@ -1,0 +1,35 @@
+{
+  "HeroSection": {
+    "title": "Привет, я Luca",
+    "subtitle": "",
+    "viewWork": "Посмотреть мои работы",
+    "contactMe": "Связаться со мной"
+  },
+  "ProjectsSection": {
+    "title": "Мои проекты",
+    "loading": "Загрузка проектов...",
+    "error": "Ошибка: {message}",
+    "noProjects": "Проекты не найдены.",
+    "viewOnGitHub": "Посмотреть на GitHub"
+  },
+  "Navbar": {
+    "home": "Главная",
+    "projects": "Проекты",
+    "contact": "Контакты"
+  },
+  "SocialSection": {
+    "title": "Connect With Me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "TimelineSection": {
+    "title": "My Career Journey",
+    "noEntries": "No career entries available."
+  },
+  "Footer": {
+    "impressum": "Impressum",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

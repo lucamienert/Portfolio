@@ -1,0 +1,35 @@
+{
+  "HeroSection": {
+    "title": "Hi, I'm Luca",
+    "subtitle": "",
+    "viewWork": "View My Work",
+    "contactMe": "Contact Me"
+  },
+  "ProjectsSection": {
+    "title": "My Projects",
+    "loading": "Loading projects...",
+    "error": "Error: {message}",
+    "noProjects": "No projects found.",
+    "viewOnGitHub": "View on GitHub"
+  },
+  "Navbar": {
+    "home": "Home",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "SocialSection": {
+    "title": "Connect With Me",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "TimelineSection": {
+    "title": "My Career Journey",
+    "noEntries": "No career entries available."
+  },
+  "Footer": {
+    "impressum": "Impressum",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}
