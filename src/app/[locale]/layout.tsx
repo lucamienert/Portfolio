@@ -7,8 +7,6 @@ import { routing } from "@/i18n/routing"
 import { getTranslations, setRequestLocale } from "next-intl/server"
 import { notFound } from "next/navigation"
 
-const inter = Inter({subsets: ['latin']})
-
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({locale}))
 }
@@ -38,18 +36,15 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 })
 
-
 export default async function LocaleLayout({
   children,
   params
 }: LayoutProps<'/[locale]'>) {
-  // Ensure that the incoming `locale` is valid
   const {locale} = await params
-  if (!hasLocale(routing.locales, locale)) {
-    notFound()
-  }
 
-  // Enable static rendering
+  if (!hasLocale(routing.locales, locale))
+    notFound()
+
   setRequestLocale(locale)
 
   return (

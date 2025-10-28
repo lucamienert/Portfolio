@@ -12,6 +12,7 @@ import {
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { githubUrl, repositories } from "@/lib/github"
+import GithubProjectModel from "@/models/project"
 
 export default function ProjectsSection() {
   const t = useTranslations("ProjectsSection")
@@ -75,7 +76,7 @@ export default function ProjectsSection() {
         )}
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {projects.map((project: any) => (
+          {projects.map((project: GithubProjectModel) => (
             <Card
               key={project.id}
               className={cn(
